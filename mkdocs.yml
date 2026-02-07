@@ -1,4 +1,41 @@
-site_name: My Docs
-site_url: https://mydomain.org/mysite
+site_name: CodingIsMeditation
+site_url: https://codingismeditation.github.io/
 theme:
   name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: amber
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: red
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prun
+    # - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+  plugins:
+    - search
