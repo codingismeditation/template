@@ -23,6 +23,9 @@ theme:
         icon: material/brightness-7 
         name: Switch to dark mode
   features:
+    - content.code.select
+    - content.code.annotate 
+    - content.code.copy
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
@@ -71,3 +74,16 @@ plugins:
 repo_url: https://github.com/kintsugi-programmer
 repo_name: kintsugi-programmer
 copyright: Copyright &copy;2026 Siddhant Bali. All rights reserved.
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
