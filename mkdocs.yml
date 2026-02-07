@@ -1,5 +1,7 @@
 site_name: CodingIsMeditation
 site_url: https://codingismeditation.github.io/
+nav:
+  - Home: index.md
 theme:
   name: material
   logo: assets/images/logo.png
@@ -31,7 +33,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.path
-    - navigation.prun
+    - navigation.prune
     - toc.integrate
     - navigation.top
     - search.suggest
