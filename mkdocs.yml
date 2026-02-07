@@ -37,5 +37,35 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  plugins:
-    - search
+    - header.autohide
+    - navigation.footer
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@CodingIsMeditation
+      name: CodingIsMeditation YouTube Channel
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/siddhantbuilds
+      name: Author's Twitter
+    - icon: fontawesome/brands/github
+      link: https://kintsugi-programmer.github.io/
+      name: Author's GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/siddhantbuilds/
+      name: Author's LinkedIn
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:siddhant.bali.work@gmail.com
+      name: Author's Email
+  generator: false
+plugins:
+  - search
+  - offline
+
+  - git-revision-date-localized:
+      enable_creation_date: true
+  # - git-committers:
+  #     repository: codingismeditation/codingismeditation.github.io
+  #     branch: main
+repo_url: https://github.com/kintsugi-programmer
+repo_name: kintsugi-programmer
+copyright: Copyright &copy;2026 Siddhant Bali. All rights reserved.
