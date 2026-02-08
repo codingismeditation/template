@@ -1,3 +1,12 @@
+---
+title: Backend Engineering Roadmap
+description: Learn backend engineering from first principles with real-world system design.
+keywords:
+  - backend engineering
+  - system design
+  - databases
+---
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

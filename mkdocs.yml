@@ -1,11 +1,17 @@
-site_name: CodingIsMeditation · Template
-site_url: https://codingismeditation.github.io/template/
+site_name: Coding Is Meditation
+site_description: Deep, practical docs on backend, systems, and engineering mindset
+site_url: https://codingismeditation.github.io/template
 extra:
   parent_site:
     name: CodingIsMeditation
     url: https://codingismeditation.github.io/
 nav:
   - Home: index.md
+  - Backend:
+      - Roadmap: backend/roadmap.md
+      - Databases: backend/databases.md
+  - DevOps:
+      - Docker: devops/docker.md
 theme:
   name: material
   logo: assets/images/logo.png
@@ -35,8 +41,8 @@ theme:
     - navigation.instant.progress
     - navigation.instant.preview
     - navigation.tracking
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.path
@@ -72,6 +78,8 @@ extra:
 plugins:
   - search
   - offline
+  - social
+
 
   - git-revision-date-localized:
       enable_creation_date: true
