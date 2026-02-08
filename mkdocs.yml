@@ -1,5 +1,9 @@
-site_name: CodingIsMeditation
-site_url: https://codingismeditation.github.io/
+site_name: CodingIsMeditation · Template
+site_url: https://codingismeditation.github.io/template/
+extra:
+  parent_site:
+    name: CodingIsMeditation
+    url: https://codingismeditation.github.io/
 nav:
   - Home: index.md
 theme:
@@ -46,6 +50,9 @@ theme:
     - navigation.footer
 extra:
   social:
+    - icon: fontawesome/solid/house
+      link: https://codingismeditation.github.io/
+      name: Home
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@CodingIsMeditation
       name: CodingIsMeditation YouTube Channel
