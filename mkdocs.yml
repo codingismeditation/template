@@ -1,10 +1,6 @@
 site_name: Coding Is Meditation
 site_description: Deep, practical docs on backend, systems, and engineering mindset
 site_url: https://codingismeditation.github.io/template
-extra:
-  parent_site:
-    name: CodingIsMeditation
-    url: https://codingismeditation.github.io/
 nav:
   - Home: index.md
   - Backend:
@@ -55,6 +51,9 @@ theme:
     - header.autohide
     - navigation.footer
 extra:
+  parent_site:
+    name: CodingIsMeditation
+    url: https://codingismeditation.github.io/
   social:
     - icon: fontawesome/solid/house
       link: https://codingismeditation.github.io/
@@ -78,8 +77,10 @@ extra:
 plugins:
   - search
   - offline
-  - social
-
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: custom
+      debug: true
 
   - git-revision-date-localized:
       enable_creation_date: true
